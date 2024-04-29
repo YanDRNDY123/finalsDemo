@@ -1,0 +1,56 @@
+*
+{
+    margin: 0;
+}
+
+.Order-content
+{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 100px 300px;
+    margin-top: 50px;
+}
+
+.myh1
+{
+    font-family: Playfair display;
+    font-size: 4em;
+    width: 600px;
+    color: #3F0F06;
+}
+
+a
+{
+    text-decoration: none;
+    font-size: 1em;
+    color: #B36C36;
+}
+
+.counter
+{
+    font-style: Times;
+}
+
+.orderDetails
+{
+    border: none;
+    border-radius: 16px;
+    background-color: #3F0F06;
+    color: #FFFF;
+    padding: 16px 25px;
+    margin-top: 16px;
+    transition: background-color 0.3s, color 0.3s, border 0.3s;
+}
+
+.orderDetails:hover
+{
+    background-color: transparent;
+    color: #3F0F06;
+    cursor: pointer;
+}

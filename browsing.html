@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+
+    <link rel="stylesheet" href="./navigation.css">
+    <link rel="stylesheet" href="./footer.css">
+    <link rel="stylesheet" href="./browsing.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap" rel="stylesheet">
+
+    <style>
+        body 
+        {
+            background-color: rgb(255, 227, 203);
+            padding-top: 75px;
+            margin-left: 0;
+            margin-right: 0;
+            margin-bottom: 0;
+        }
+
+        .contents {
+            margin: 5px 50px;
+            border-radius: 15px;
+            padding: 10px 10px;
+            background-color: rgb(255, 227, 203);
+            flex: 1;
+        }
+
+        .line {
+            border-bottom: 1px solid rgb(89, 31, 11);
+        }
+
+        .separator
+        {
+            position: absolute;
+            z-index: -1;
+            width: 100%;
+            height: 300px;
+        }
+    </style>
+</head>
+
+<body class="">
+    <div class="navigation">
+        <div class="logo-name">
+            <div class="logodiv">
+                <a href="./adminlogin.html"><img class="logo" src="./logo-removebg-preview.jpg " alt=""></a>
+            </div>
+            <div class="name">
+                <p><a href="">Café Charme</a></p>
+            </div>
+        </div>
+
+        <div class="home-service-menu">
+            <div class="home-nav">  
+                <a href="./index.html">Home</a>
+            </div>
+            <div class="service-nav">
+                <a href="./aboutUs.html">About Us</a>
+            </div>
+            <div class="menu-nav">
+                <a href="./browsing.html">Menu</a>
+            </div>
+        </div>
+
+
+
+        <div class="icon-bar">
+            <div class="search-icon">
+                <img class="icon" src="./Search Icon.jpg" alt="Search">
+            </div>
+            <div class="search-bar">
+                <input class="bar" type="search" name="" id="" placeholder="Search">
+            </div>
+        </div>
+
+        <div class="shop-starts">
+            <span class="counter">0</span>
+            <img class="shop-cart" src="./cart3.svg" alt="">
+        </div>
+
+        <div class="log-in-button">
+            <a href="./login.html"><button class="log-in">Sign In</button></a>
+        </div>
+    </div>
+
+    <div class="Our-Menu">
+        <div class="text"><p>Our Menu</p></div>
+    </div>
+
+    <div class="Top-Sellers">
+        <p class="head1">Top Selling Products</p>
+        <div class="segment">
+            <div class="left">
+                <img class="top-image" src="./mochaMacho 1.png" alt="">
+            </div>
+            <div class="right">
+                <p class="top-price">$4.00</p>
+                <p class="top-name">Café Mocha</p>
+                <p class="top-description">It is rich and indulgent blend of espresso, velvety chocolate, and steamed milk, topped with a dollop of creamy foam. Each sip is a harmonious balance of bold coffee flavor and luscious chocolate.</p>
+                <button class="add-Button">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="segment">
+            <div class="left1">
+                <p class="top-price">$4.75</p>
+                <p class="top-name">Chocolate Cake</p>
+                <p class="top-description">Baked with care and attention to detail, each bite offers a symphony of chocolate flavors, from deep cocoa notes to hints of sweetness.</p>
+                <button class="add-Button">Add to Cart</button>
+            </div>
+            <div class="right">
+                <img class="top-image" src="./Chocolate Cake 11.png" alt="">
+            </div>
+        </div>
+
+        <div class="segment">
+            <div class="left">
+                <img class="top-image" src="./Latte 11.png" alt="">
+            </div>
+            <div class="right">
+                <p class="top-price">$3.50</p>
+                <p class="top-name">Café Latte</p>
+                <p class="top-description">Our signature latte is a masterpiece of smooth, velvety steamed milk and robust espresso, expertly crafted to perfection.</p>
+                <button class="add-Button">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+        <p class="head2">Pastries</p>
+
+        <div class="Pastries">
+            <div class="product">
+                <div class="product-left">
+                    <p class="prod-name">Cookies</p>
+                    <p class="prod-description">
+                        It has a delicious blend of homemade goodness and gourmet flair. Each bite offers a perfect balance of sweetness and richness, making them a delightful treat for any occasion.
+                    </p>
+                </div>
+                <div class="price"><p>$2.00</p>
+                <button class="add-Button-small">Add to Cart</button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-left">
+                    <p class="prod-name">Croissant</p>
+                    <p class="prod-description">
+                        Has a flaky, buttery delight, baked to golden perfection. With a delicate exterior that shatters with every bite and a soft, pillowy interior.                    </p>
+                </div>
+                <div class="price"><p>$2.50</p>
+                <button class="add-Button-small">Add to Cart</button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-left">
+                    <p class="prod-name">Muffins</p>
+                    <p class="prod-description">
+                        Charme’s muffins are a burst of flavor in every bite. Baked to perfection, they boast a moist and fluffy texture with just the right amount of sweetness.                    
+                    </p>
+                </div>
+                <div class="price"><p>$2.75</p>
+                <button class="add-Button-small">Add to Cart</button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-left">
+                    <p class="prod-name">Brownies</p>
+                    <p class="prod-description">
+                        These are decadent delight, with a rich, fudgy texture and a deep, chocolatey flavor. Baked to perfection, each brownie is a heavenly indulgence that melts in your mouth with every bit.
+                    </p>
+                </div>
+                <div class="price"><p>$3.50</p>
+                <button class="add-Button-small">Add to Cart</button>
+                </div>
+            </div>
+
+        </div>
+
+        <p class="head2">Drinks</p>
+
+        <div class="Pastries">
+            <div class="product">
+                <div class="product-left">
+                    <p class="prod-name">Macchiato</p>
+                    <p class="prod-description">
+                        macchiato that's a perfect blend of bold espresso and creamy steamed milk, delivering a rich and satisfying flavor in every sip.                    </p>
+                </div>
+                <div class="price">
+                    <p>$3.00</p>
+                    <button class="add-Button-small">Add to Cart</button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-left">
+                    <p class="prod-name">Americano</p>
+                    <p class="prod-description">
+                        A classic Americano, featuring robust espresso shots topped with hot water for a smooth, bold flavor that's both invigorating and satisfying.                </div>
+                <div class="price"><p>$2.75</p>
+                <button class="add-Button-small">Add to Cart</button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-left">
+                    <p class="prod-name">Espresso</p>
+                    <p class="prod-description">
+                        Start your day right with our classic espresso shot. Bold, intense, and expertly brewed, it's the perfect pick-me-up for those who appreciate the pure essence of coffee
+                    </p>
+                </div>
+                <div class="price"><p>$2.50</p>
+                <button class="add-Button-small">Add to Cart</button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-left">
+                    <p class="prod-name">Cookies 'n' Cream Crush</p>
+                    <p class="prod-description">
+                        Get lost in a whirlwind of cookie crumbs and creamy goodness with our cookies 'n' cream milkshake. It's a delightful blend of crunchy cookies and velvety ice cream that's sure to satisfy.                    </p>
+                </div>
+                <div class="price"><p>$4.50</p>
+                <button class="add-Button-small">Add to Cart</button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-left">
+                    <p class="prod-name">Strawberry Sensation</p>
+                    <p class="prod-description">
+                        Savor the sweetness of ripe strawberries in every sip of our strawberry milkshake. It's refreshingly fruity and oh-so-delicious, perfect for brightening up any day.                </div>
+                <div class="price"><p>$4.25</p>
+                <button class="add-Button-small">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="border-quote">
+            <p class="quote">
+                Experience the artistry of flavor at Café Charme, 
+                where everything is crafted with passion.
+            </p>
+        </div>
+
+
+
+        <div class="cartTab">
+            <h1>Shopping Cart</h1>
+            <div class="listCart">
+                <div class="item">
+                    <div class="image">
+                        <img src="mochaMacho 1.png" alt="">
+                    </div>
+                    <div class="Nname">
+                        Café Mocha
+                    </div>
+                    <div class="totalPrice">
+                        $4.00
+                    </div>
+                    <div class="quantity">
+                        <span class="minus"><</span>
+                        <span class="calculate">1</span>
+                        <span class="plus">></span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="btn">
+                <button class="close">Close</button>
+                <a href="./Profile.html"><button class="checkout">Check Out</button></a>
+            </div>
+        </div>
+
+        <script src="app.js">
+        </script>
+
+</body>
+
+<footer>
+    <div class="footer-top">
+        <div class="footer-logo">
+            <div>
+                <img class="footer-brand-logo" src="./Group 29.png" alt="">
+            </div>
+            <p class="footer-brand-name">Café Charme</p>
+        </div>
+        <div>
+            <p class="footer-text">Where every sip is an enchantment</p>
+        </div>
+        <div class="footer-platforms">
+            <img class="footer-frame" src="./Frame 36.png" alt="">
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <div class="footer-bottom-left">
+            <p class="footer-bottom-text">
+                About Company
+            </p>
+            <p class="about-company">
+                Cafe Charme offers a delightful blend of flavors and hospitality, creating memorable experiences with every visit
+            </p>
+            <div class="other-infos">
+                <img src="./mdi_location.png" alt="">
+                <p>Zamboanga City</p>
+            </div>
+            <div class="other-infos">
+                <img src="mdi_call.png" alt="">
+                <p>123-4567-098</p>
+            </div>
+            <div class="other-infos">
+                <img src="./ic_round-email.png" alt="">
+                <p>CafeCharmeDelights@email.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom-right">
+            <p class="footer-bottom-text">
+                Opening Hours
+            </p>
+            <p class="about-company">
+                Unwind at Cafe Charme during our opening hours, ensuring you can enjoy our cozy ambiance and delightful treats.
+            </p>
+            <p>
+                <p><span class="bolded">Monday - Friday: </span> 09:00 AM - 08:00 PM</p>
+            </p>
+            <p>
+                <p><span class="bolded">Saturday - Sunday: </span> 09:00 AM - 08:00 PM</p>
+            </p>
+        </div>
+    </div>
+
+    <div class="foot-footer">
+        <div>
+            © Copyright Coffee Cup. All right reserved.
+        </div>
+
+        <div class="foot-footer-trio">
+            <div>Privacy Policy</div>
+            <div>Support</div>
+            <div>Terms & Condition</div>
+        </div>
+    </div>
+</footer>
+</html>

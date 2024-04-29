@@ -1,0 +1,269 @@
+button
+{
+    border-radius: 4px;
+    border: 1px solid black;
+}
+
+button:hover
+{
+    cursor: pointer;
+}
+
+*
+{
+    font-size: 16px;
+    font-family: Roboto;
+    margin: 0;
+}
+
+a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.space
+{
+    height: 300px;
+}
+
+.body
+{
+    position: relative;
+    margin: 0;
+}
+
+.admin-side
+{
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+    background-color: #f0eeee;
+    height: 100%;
+}
+
+.admin-nav
+{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 700px;
+    background-color: #591F0B;
+    color: #FFF;
+    position: fixed;
+}
+
+.name-nav
+{
+    font-size: 30px;
+    font-family: Playfair;
+    padding: 16px 24px 24px;
+}
+
+.dashboard-nav-home
+{
+    display: flex;
+    flex-direction: row;
+    padding: 24px 24px;
+    column-gap: 8px;
+}   
+
+.dashboard-nav-orders
+{
+    display: flex;
+    flex-direction: row;
+    padding: 24px 24px;
+    column-gap: 8px;
+    transition: background-color 0.5s;
+}
+
+.dashboard-nav-orders:hover
+{
+    background-color: #3F0F06;
+}
+
+.dashboard-nav-products
+{
+    background-color: #3F0F06;
+    display: flex;
+    flex-direction: row;
+    padding: 24px 24px;
+    column-gap: 8px;
+    transition: background-color 0.5s;
+}
+
+.dashboard-nav-products:hover
+{
+    background-color: #3F0F06;
+}
+
+
+.admin-dashboard
+{
+    row-gap: 25px;
+    margin-left: 250px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 24px;
+    margin-bottom: 100px;
+    position: relative;
+    height: auto;
+}
+
+.bar
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 700px;
+    background-color: #FFFF;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+.ham-search
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.line 
+{
+    width: 16px;
+    height: 2px;
+    background-color: black;
+    margin: 3px 0;
+}
+
+.admin-search
+{
+    padding: 8px 16px;
+    border-radius: 8px;
+    background-clip: padding-box;
+    background-color: transparent;
+}
+
+.notif-profile
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 8px;
+}
+
+
+.notif-icon
+{
+    width: 35px;
+}
+
+.list
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+
+.list-top
+{
+    padding: 16px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFF;
+    border-radius: 8px;
+}
+
+.listItems
+{
+    padding: 16px 20px;
+    background-color: #FFFF;
+    border-radius: 8px;
+}
+
+.row-title1
+{
+    padding: 16px 0px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 155px;
+    border-bottom: 1px solid black;
+}
+
+.row-title
+{
+    padding: 16px 0px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+.rowHidden
+{
+    display: none;
+}
+
+.rowHidden1
+{
+    display: none;
+}
+
+.rowHidden2
+{
+    display: none;
+}
+
+.rowHidden3
+{
+    display: none;
+}
+
+.rowHidden4
+{
+    display: none;
+}
+
+.rowHidden5
+{
+    display: none;
+}
+
+.search
+{
+    padding: 8px 0px 8px 4px;
+}
+
+.name
+{
+    width: 171px;
+}
+
+.add-button
+{
+    padding: 16px 32px;
+    background-color: #591F0B;
+    color: #FFFF;
+    border: none;
+    border-radius: 4px;
+}
+
+.editbtn
+{
+    background-color: #591F0B;
+    border-radius: 4px;
+    border: none;
+    color: #FFFF;
+    font-weight: light;
+    padding: 4px 8px;
+}
+
+.removebtn
+{
+    border: none;
+    background-color: #FFFF;
+    color: red;
+}
+

@@ -1,0 +1,237 @@
+*
+{
+    margin: 0;
+    font-family: Roboto;
+    color: #591F0B;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.body
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebarNav
+{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 200px;
+    height: 700px;
+    border-right: 2px solid black;
+    text-align: center;
+}
+
+.logo
+{
+    width: 90px;
+    margin-bottom: 30px;
+}
+
+.links
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.links a
+{
+    text-decoration: none;
+    font-style: Roboto;
+    font-size: 18px;
+    padding: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.links a:hover
+{
+    background-color: #591F0B;
+    color: #ffe3cb;
+} 
+
+.myPurchaseSection
+{
+    background-color: #591F0B;
+    color: #ffe3cb;
+}
+
+.content
+{
+    margin-left: 200px;
+    padding: 16px 20px;
+}
+
+.top
+{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px;
+    margin: 16px 24px;
+    justify-content: center;
+    text-align: center;
+    background-color: #FFFF;
+    width: 1078px;
+}
+
+.top a
+{
+    padding: 16px 60px;
+    width: 215.6px;
+    transition: font-weight 0.5s, border-bottom 0.5s;
+}
+
+.top a:hover
+{
+    font-weight: bold;
+    border-bottom: 1px solid #591F0B;
+}
+
+#selected
+{
+    font-weight: bold;
+    border-bottom: 1px solid #591F0B;
+}
+
+.searchSearch
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 16px 24px;
+    width: 1046px;
+    font-size: 20px;
+    background-color: #FFFF;
+    padding: 16px;
+}
+
+.searchBar
+{
+    border-radius: 4px;
+    border: none;
+    font-size: 16px;
+    width: 100%;
+    margin-left: 15px;
+}
+
+.orderInfo
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFF;
+    padding: 16px 24px;
+    margin-left: 24px;
+    width: 1030px;
+}
+
+.infoTop
+{
+    margin-top: 10px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px;
+    justify-content: space-between;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #591F0B;
+}
+
+
+.infoTopLeft
+{
+    display: flex;
+    flex-direction: row;
+    column-gap: 16px;
+    align-items: center;
+}
+
+.brand
+{
+    font-family: Fairplay Display;
+    font-size: 20px;
+}
+
+.contUs
+{
+    border: none;
+    border-radius: 4px;
+    padding: 8px 10px;
+    background-color: #591F0B;
+    color: #ffe3cb;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.contUs:hover
+{
+    background-color: #FFFF;
+    color: #591F0B;
+    border-color: #591F0B;
+}
+
+.viewMenu
+{
+    padding: 3px 10px;
+    border-radius: 4px;
+    background-color: #FFFF;
+    border: 1px solid #591F0B;
+    color: #591F0B;
+    transition: background-color 0.3s, color 0.3s;
+
+}
+
+.viewMenu:hover
+{
+    background-color: #591F0B;
+    color: #ffe3cb;
+}
+
+.infoTopRight
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.infoTopRight a
+{
+    color: hsl(203, 77%, 47%);
+}
+
+.orderContent
+{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    column-gap: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #591F0B;
+}
+
+.productPic
+{
+    width: 150px;
+}
+
+.textInfo
+{
+    line-height: 30px;
+}
+
+.totalShiz
+{
+    padding-right: 16px;
+    text-align: end;
+}
+
+.totaCost
+{
+    font-size: 25px;
+}
+
+

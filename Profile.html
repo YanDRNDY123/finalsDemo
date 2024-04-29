@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+
+    <link rel="stylesheet" href="./navigation.css">
+    <link rel="stylesheet" href="./footer.css">
+    <link rel="stylesheet" href="./checkout1.css">
+
+    <style>
+
+        body 
+        {
+            background-color: rgb(255, 227, 203);
+            margin-left: 0;
+            margin-right: 0;
+            margin-bottom: 0;
+        }
+
+        .contents {
+            margin: 5px 50px;
+            border-radius: 15px;
+            padding: 10px 10px;
+            background-color: rgb(255, 227, 203);
+            flex: 1;
+        }
+
+        .line {
+            border-bottom: 1px solid rgb(89, 31, 11);
+        }
+
+        .separator
+        {
+            position: absolute;
+            z-index: -1;
+            width: 100%;
+            height: 300px;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <div class="mainscreen">
+          <div class="card">
+            <div class="leftside">
+              <img
+                src="./pexels-jonathanborba-2878709.jpg"
+                class="product"
+                alt="Shoes" 
+              />
+            </div>
+            <div class="rightside">
+              <form action="">
+                <h1>CheckOut</h1>
+                <h2>Payment Information</h2>
+                <p>Full Name</p>
+                <input type="text" class="inputbox" name="name" required />
+                <p>Phone Number</p>
+                <input type="number" class="inputbox" name="card_number" id="card_number" required />
+                <p>Address</p>
+                <input type="text" class="inputbox" name="address" required />
+    
+                <p>Message</p>
+                <textarea name="card_type" id="" cols="65" rows="0" placeholder="Additional Instructions (OPTIONAL)"></textarea>
+
+              </form>
+              <a href="./Card.html"><button class="button">Proceed With Card</button></a>
+              <a href="./cash.html"><button class="button">Cash On Delivery</button></a>
+
+            </div>
+          </div>
+        </div>
+      
+    
+</body>
+</html>
