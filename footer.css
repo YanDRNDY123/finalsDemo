@@ -1,0 +1,141 @@
+.foot
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-top
+{
+    display: flex;
+    flex-direction: column;
+    background-image: url(./Group\ 32.png   );
+    padding: 32px;
+}
+
+.footer-logo
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    column-gap: 12px;
+}
+
+.footer-brand-logo
+{
+    width: 70.643px;
+    height: 70.599px;   
+}
+
+.footer-brand-name
+{
+    color: #FFF;
+    text-align: center;
+    font-family: "Playfair Display";
+    font-size: 22.29px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.footer-text
+{
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 19.202px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 8px;
+}
+
+.footer-platforms
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14.577px;
+}
+
+.footer-bottom
+{
+    display: flex;
+    flex-direction: row;
+    background-color: #591F0B;
+    padding: 30px 90px 30px 90px;
+    column-gap: 100px;
+    justify-content: space-evenly;
+    border-bottom: 1px solid white;
+    font-family: Roboto;
+    font-weight: light;
+}
+
+.footer-bottom-text
+{
+    margin: 0px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.foot-footer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 90px 15px 90px;
+    background-color: #591F0B;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: right;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.foot-footer-trio
+{
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+}
+
+.footer-bottom-left
+{
+    text-align: start;
+    color: white;
+}
+
+.about-company
+{
+    width: 400px;
+    text-align: start;
+}
+
+.other-infos
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 8px;
+}
+
+.other-infos img
+{
+    width: 34px;
+    height: 34px;
+}
+
+.footer-bottom-right
+{
+    text-align: start;
+    color: white;
+}
+
+.bolded
+{
+    font-weight: bold;
+}

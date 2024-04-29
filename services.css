@@ -1,0 +1,101 @@
+.services
+        {
+            display: flex;
+            flex-direction: column;
+            column-gap: 50px;
+            justify-content: center;
+            align-items: center;
+            padding-left: 90px;
+            padding-right: 90px;
+            padding-bottom: 30px;
+        }
+
+        .serve-title
+        {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .our-services
+        {
+            font-size: 30px;
+            font-weight: 600;
+            color: rgb(63, 15, 6);
+            margin-bottom: 30px;
+            border-bottom: 2px solid rgb(179, 108, 54);
+        }
+
+        .serve-description
+        {
+            font-style: Roboto;
+            font-size: 16px;
+            color: rgb(89, 31, 11);
+            width: 610px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .offer
+        {
+            display: flex;
+            flex-direction: row;
+            column-gap: 80px;
+            height: 300px;
+            width: 1000px;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+        }
+
+        .box
+        {
+            background-color: #591F0B;
+            width: 200px;
+            height: 200px;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 6.632px 6.632px 0px rgba(0, 0, 0, 0.25);            
+            display: flex;
+            flex-direction: column;
+        }
+
+        .pic-1
+        {
+            width: 100%;
+            height: 148.05px;
+            position: relative;
+            z-index: 0.5;
+        }
+
+        .pic-description
+        {
+            position: absolute;
+            width: 180px;
+            visibility: hidden;
+            opacity: 0.;
+        }
+
+        .pic-1:hover .pic-description
+        {
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .head-text
+        {
+            text-align: center;
+            color: #FFE3CB;
+            font-family: roboto;
+            font-size: 20px;
+        }
+
+
+        
+        .coffee-cup
+        {
+            width: 80px;
+            border-radius: 50%;
+        }
+
+      
