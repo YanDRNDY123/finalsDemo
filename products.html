@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+
+</head>
+<body>
+    <link rel="stylesheet" href="./products.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap" rel="stylesheet">
+
+    <div class="admin-side">
+        <div class="admin-nav">
+            <div class="brand-nav">
+                <a href=".">
+                    <p class="name-nav">Café Charme</p>
+                </a>
+            </div>
+            <div class="dashboard-nav-home">
+                <img class="home-icon" src="home-shop.svg" alt="">
+                <a href="./dashboard.html">
+                    <p>Dashboard</p>
+                </a>
+            </div>
+            <div class="dashboard-nav-orders">
+                <img class="home-icon" src="./truck1.png" alt="">
+                <a href="./orders.html">
+                    <p>Orders</p>
+                </a>
+            </div>
+            <div class="dashboard-nav-products">
+                <img class="home-icon" src="box-seam.svg" alt="">
+                <a href="./products.html">
+                    <p>Products</p>
+                </a>
+            </div>
+        </div>
+        <div class="admin-dashboard">
+            <div class="bar">
+                <div class="ham-search">
+                    <div class="hamburger">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>                    
+                    </div>
+                    <div class="search-admin">
+                        <input class="admin-search" type="search" name="" id="" placeholder="Search">
+                    </div>
+                </div>
+
+                <div class="notif-profile">
+                    <div class="notification">
+                        <img class="notif-icon" src="/Group 317.png" alt="">
+                    </div>
+                    <div class="admin-profile">
+                        <img class="profile-admin" src="Group 318.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="list">
+                <div class="list-top">
+                    <input class="search" type="search" placeholder="Search Product">
+                    <a href="./addProduct.html"><button class="add-button">Add Product</button></a>
+                </div>
+                <div class="listItems">
+                    <div class="row-title1">
+                        <input type="checkbox">
+                        <div  class="name">Product Name</div>
+                        <div>Price</div>
+                        <div>Category</div>
+                        <div>Action</div>
+                    </div>
+                    <div id="myItem" class="row-title">
+                        <input type="checkbox">
+                        <div class="name">Café Mocha</div>
+                        <div>$4.00</div>
+                        <div>Drink</div>
+                        <div>
+                            <a href="./edit1.html"><button class="editbtn">Edit</button></a>
+                            <button id="btnremove" class="removebtn">Remove</button>
+                        </div>
+                    </div>
+                    <div id="myItem1" class="row-title">
+                        <input type="checkbox">
+                        <div class="name">Café Latte</div>
+                        <div>$3.50</div>
+                        <div>Drink</div>
+                        <div>
+                            <a href="./edit2.html"><button class="editbtn">Edit</button></a>
+                            <button id="btnremove1" class="removebtn">Remove</button>
+                        </div>
+                    </div>
+                    <div id="myItem2" class="row-title">
+                        <input type="checkbox">
+                        <div class="name">Macchiato</div>
+                        <div>$3.00</div>
+                        <div>Drink</div>
+                        <div>
+                            <a href="./edit3.html"><button class="editbtn">Edit</button></a>
+                            <button id="btnremove2" class="removebtn">Remove</button>
+                        </div>
+                    </div>
+                    <div id="myItem3" class="row-title">
+                        <input type="checkbox">
+                        <div class="name">Americano</div>
+                        <div>$2.75</div>
+                        <div>Drink</div>
+                        <div>
+                            <a href="./edit4.html"><button class="editbtn">Edit</button></a>
+                            <button id="btnremove3" class="removebtn">Remove</button>
+                        </div>
+                    </div>
+                    <div id="myItem4" class="row-title">
+                        <input type="checkbox">
+                        <div class="name">Espresso</div>
+                        <div>$2.50</div>
+                        <div>Drink</div>
+                        <div>
+                            <a href="./edit5.html"><button class="editbtn">Edit</button></a>
+                            <button id="btnremove4" class="removebtn">Remove</button>
+                        </div>
+                    </div>
+                    <div id="myItem5" class="row-title">
+                        <input type="checkbox">
+                        <div  class="name">Cookies 'n' Cream Crush</div>
+                        <div>$4.50</div>
+                        <div>Drink</div>
+                        <div>
+                            <a href="./edit6.html"><button class="editbtn">Edit</button></a>
+                            <button id="btnremove5" class="removebtn">Remove</button>
+                        </div>
+                    </div>
+                    <div id="myItem6" class="row-title">
+                        <input type="checkbox">
+                        <div class="name">Strawberry Sensation</div>
+                        <div>$4.25</div>
+                        <div>Drink</div>
+                        <div>
+                            <a href="./edit7.html"><button class="editbtn">Edit</button></a>
+                            <button id="btnremove6" class="removebtn">Remove</button>
+                        </div>
+                    </div>
+                    <div id="myItem7" class="row-title">
+                        <input type="checkbox">
+                        <div class="name">Chocolate Cake</div>
+                        <div>$4.75</div>
+                        <div>Pastry</div>
+                        <div>
+                            <a href="./edit8.html"><button class="editbtn">Edit</button></a>
+                            <button id="btnremove7" class="removebtn">Remove</button>
+                        </div>
+                    </div>
+                    <div id="myItem8" class="row-title">
+                        <input type="checkbox">
+                        <div class="name">Cookies</div>
+                        <div>$2.00</div>
+                        <div>Pastry</div>
+                        <div>
+                            <a href="./edit9.html"><button class="editbtn">Edit</button></a>
+                            <button id="btnremove8" class="removebtn">Remove</button>
+                        </div>
+                    </div>
+                    <div id="myItem9" class="row-title">
+                        <input type="checkbox">
+                        <div class="name">Croissant</div>
+                        <div>$2.50</div>
+                        <div>Pastry</div>
+                        <div>
+                            <a href="./edit10.html"><button class="editbtn">Edit</button></a>
+                            <button id="btnremove9" class="removebtn">Remove</button>
+                        </div>
+                    </div>
+                    <div id="myItem10" class="row-title">
+                        <input type="checkbox">
+                        <div class="name">Muffins</div>
+                        <div>$2.75</div>
+                        <div>Pastry</div>
+                        <div>
+                            <a href="./edit11.html"><button class="editbtn">Edit</button></a>
+                            <button id="btnremove10" class="removebtn">Remove</button>
+                        </div>
+                    </div>
+                    <div id="myItem11" class="row-title">
+                        <input type="checkbox">
+                        <div class="name">Brownies</div>
+                        <div>$3.50</div>
+                        <div>Pastry</div>
+                        <div>
+                            <a href="./edit12.html"><button class="editbtn">Edit</button></a>
+                            <button id="btnremove11" class="removebtn">Remove</button>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+
+            </div>
+        </div>
+    </div>
+
+    <script src="./products.js">
+
+    </script>
+</body>
+</html>

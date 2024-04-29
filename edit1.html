@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Item 1</title>
+
+    <link rel="stylesheet" href="./addProduct.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="admin-nav">
+        <div class="brand-nav">
+            <a href=".">
+                <p class="name-nav">Café Charme</p>
+            </a>
+        </div>
+        <div class="dashboard-nav-home">
+            <img class="home-icon" src="home-shop.svg" alt="">
+            <a href="./dashboard.html">
+                <p>Dashboard</p>
+            </a>
+        </div>
+        <div class="dashboard-nav-orders">
+            <img class="home-icon" src="./truck1.png" alt="">
+            <a href="./orders.html">
+                <p>Orders</p>
+            </a>
+        </div>
+        <div class="dashboard-nav-products">
+            <img class="home-icon" src="box-seam.svg" alt="">
+            <a href="./products.html">
+                <p>Products</p>
+            </a>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="bar">
+            <div class="ham-search">
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>                    
+                </div>
+                <div class="search-admin">
+                    <input class="admin-search" type="search" name="" id="" placeholder="Search">
+                </div>
+            </div>
+    
+            <div class="notif-profile">
+                <div class="notification">
+                    <img class="notif-icon" src="/Group 317.png" alt="">
+                </div>
+                <div class="admin-profile">
+                    <img class="profile-admin" src="Group 318.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="productAdd">
+            <p>Add Product</p>
+            <div class="editingSect">
+                <div class="left">
+                    Add images
+                    <div class="imageBox">
+                        <img class="imageInput" src="./mochaMacho 1.png" alt="">
+                    </div>
+                </div>
+                <div class="right">
+                    <label for="ProductName">Product Name</label>
+                    <input type="text" placeholder="Café Mocha">
+                    <br>
+                    <label for="Category">Category</label>
+                    <select name="Category" id="Category">
+                        <option value="Drink">Drink</option>
+                        <option value="Pastry">Pastry</option>
+                    </select>
+                    <br>
+                    <label for="Price">Price</label>
+                    <input type="number" placeholder="$4.00">
+                    <br>
+                    <label for="Description">Description</label>
+                    <textarea name="Description" id="Description" cols="30" rows="5">It is rich and indulgent blend of espresso, velvety chocolate, and steamed milk, topped with a dollop of creamy foam. Each sip is a harmonious balance of bold coffee flavor and luscious chocolate.</textarea>
+                    <br>
+                </div>
+            </div>
+            
+            <div class="btns">
+                <a href="./products.html"><button class="cancelBtn">Cancel</button></a>
+                <a href="./products.html"><button class="publishBtn">Save Changes</button></a>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

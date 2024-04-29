@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Out</title>
+
+    <link rel="stylesheet" href="./navigation.css">
+    <link rel="stylesheet" href="./footer.css">
+    <link rel="stylesheet" href="./checkout.css">
+
+    <style>
+
+        body 
+        {
+            background-color: rgb(255, 227, 203);
+            margin-left: 0;
+            margin-right: 0;
+            margin-bottom: 0;
+        }
+
+        .contents {
+            margin: 5px 50px;
+            border-radius: 15px;
+            padding: 10px 10px;
+            background-color: rgb(255, 227, 203);
+            flex: 1;
+        }
+
+        .line {
+            border-bottom: 1px solid rgb(89, 31, 11);
+        }
+
+        .separator
+        {
+            position: absolute;
+            z-index: -1;
+            width: 100%;
+            height: 300px;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <div class="mainscreen">
+          <div class="card">
+            <div class="leftside">
+              <img
+                src="./pexels-jonathanborba-2878709.jpg"
+                class="product"
+                alt="Shoes" 
+              />
+            </div>
+            <div class="rightside">
+              <form action="">
+                <h1>CheckOut</h1>
+                <h2>Payment Information</h2>
+                <p>Cardholder Name</p>
+                <input type="text" class="inputbox" name="name" required />
+                <p>Card Number</p>
+                <input type="number" class="inputbox" name="card_number" id="card_number" required />
+    
+                <p>Card Type</p>
+                <select class="inputbox" name="card_type" id="card_type" required>
+                  <option value="">--Select a Card Type--</option>
+                  <option value="Visa">Visa</option>
+                  <option value="RuPay">Metrobank</option>
+                  <option value="MasterCard">BPI</option>
+                </select>
+    <div class="expcvv">
+    
+                <p class="expcvv_text">Expiry</p>
+                <input type="date" class="inputbox" name="exp_date" id="exp_date" required />
+    
+                <p class="expcvv_text2">CVV</p>
+                <input type="password" class="inputbox" name="cvv" id="cvv" required />
+            </div>
+                <p></p>
+              </form>
+              <a href="./cash.html"><button class="button" onclick="successPayment()">CheckOut</button></a>
+            </div>
+          </div>
+        </div>
+      
+    <script>
+    </script>
+</body>
+</html>

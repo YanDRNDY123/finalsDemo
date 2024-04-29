@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Purchase</title>
+
+    <link rel="stylesheet" href="./myPurchase.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            background-color: #ffe3cb;
+            margin-left: 0;
+            margin-right: 0;
+            margin-bottom: 0;
+        }
+
+        .contents {
+            margin: 5px 50px;
+            border-radius: 15px;
+            padding: 10px 10px;
+            background-color: rgb(255, 227, 203);
+            flex: 1;
+        }
+
+        .line {
+            border-bottom: 1px solid rgb(89, 31, 11);
+        }
+
+        .separator
+        {
+            position: absolute;
+            z-index: -1;
+            width: 100%;
+            height: 300px;
+        }
+        
+    </style>
+</head>
+<body>
+        <div class="sidebarNav">
+            <div>        
+                <img class="logo" src="./logo-removebg-preview.jpg" alt="">
+            </div>
+            <div class="links">
+                <a class="myPurchaseSection" href="./aboutUs copy.html">My Purchase</a>
+                <a href="./index copy.html">Home</a>
+            </div>
+        </div>
+        <div class="content">
+            <div class="top">
+                <a id="selected" class="specificator" href="">All</a>
+                <a class="specificator" href="">To Pay</a>
+                <a class="specificator" href="">To Receive</a>
+                <a class="specificator" href="">Completed</a>
+                <a class="specificator" href="">Cancelled</a>
+            </div>
+
+            <div class="searchSearch">
+                <i class="fa fa-search"></i>
+                <input class="searchBar" type="search" placeholder="You can search by Order ID of Product name">
+            </div>
+
+            <div class="orderInfo">
+                <div class="infoTop">
+                    <div class="infoTopLeft">
+                        <p class="brand">
+                            Café Charme
+                        </p>
+                        <div class="contViewBtns">
+                            <button class="contUs">Contact Us</button>
+                            <button class="viewMenu">View Menu</button>
+                        </div>
+                    </div>
+                    <div class="infoTopRight">
+                        <a href="./tracking.html">Track Your Order</a>
+                        <p>|</p>
+                        <p>ORDER ONGOING</p>
+                    </div>
+                </div>
+
+                <div class="infoBottom">
+                    <div class="orderContent">
+                        <img class="productPic" src="mochaMacho 1.png" alt="">
+                        <div class="textInfo">
+                            <p>Café Mocha</p>
+                            <p>$4.00</p>
+                            <p>x1</p>
+                        </div>
+                    </div>
+                    <div class="orderContent">
+                        <img class="productPic" src="Chocolate Cake 1.png" alt="">
+                        <div class="textInfo">
+                            <p>Chocolate Cake</p>
+                            <p>$4.75</p>
+                            <p>x1</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="totalShiz">
+                    <p>Order Total: <span class="totaCost">$8.70</span></p>
+                </div>
+
+            </div>
+        </div>
+</body>
+</html>

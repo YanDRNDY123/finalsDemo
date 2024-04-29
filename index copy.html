@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Café Charme Final</title>
+
+    <link rel="stylesheet" href="./navigation.css">
+    <link rel="stylesheet" href="./home.css">
+    <link rel="stylesheet" href="./services.css">
+    <link rel="stylesheet" href="./menu.css">
+    <link rel="stylesheet" href="./footer.css">
+    <link rel="stylesheet" href="./browsing.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: rgb(255, 227, 203);
+            padding-top: 75px;
+            margin-left: 0;
+            margin-right: 0;
+            margin-bottom: 0;
+        }
+
+        .contents {
+            margin: 5px 50px;
+            border-radius: 15px;
+            padding: 10px 10px;
+            background-color: rgb(255, 227, 203);
+            flex: 1;
+        }
+
+        .line {
+            border-bottom: 1px solid rgb(89, 31, 11);
+        }
+
+        .separator
+        {
+            position: absolute;
+            z-index: -1;
+            width: 100%;
+            height: 300px;
+        }
+        
+    </style>
+</head>
+
+<body>          
+    <div class="contents">
+        <div class="navigation">
+            <div class="logo-name">
+                <div class="logodiv">
+                    <a href="./adminlogin.html"><img class="logo" src="./logo-removebg-preview.jpg " alt=""></a>
+                </div>
+                <div class="name">
+                    <p><a href="">Café Charme</a></p>
+                </div>
+            </div>
+    
+            <div class="home-service-menu">
+                <div class="home-nav">  
+                    <a href="./index copy.html">Home</a>
+                </div>
+                <div class="service-nav">
+                    <a href="./aboutUs copy.html">About Us</a>
+                </div>
+                <div class="menu-nav">
+                    <a href="./browsing copy.html">Menu</a>
+                </div>
+            </div>
+    
+    
+    
+            <div class="icon-bar">
+                <div class="search-icon">
+                    <img class="icon" src="./Search Icon.jpg" alt="Search">
+                </div>
+                <div class="search-bar">
+                    <input class="bar" type="search" name="" id="" placeholder="Search">
+                </div>
+            </div>
+    
+            <div class="shop-starts">
+                <span class="counter">0</span>
+                <img class="shop-cart" src="./cart3.svg" alt="">
+            </div>
+    
+            <div class="profile">
+                <a href="./myPurchase.html"><img class="picc" src="./person-circle.svg" alt=""></a>
+            </div>
+        </div>
+
+        <div class="cartTab">
+            <h1>Shopping Cart</h1>
+            <div class="listCart">
+                <div class="item">
+                    <div class="image">
+                        <img src="mochaMacho 1.png" alt="">
+                    </div>
+                    <div class="Nname">
+                        Café Mocha
+                    </div>
+                    <div class="totalPrice">
+                        $4.00
+                    </div>
+                    <div class="quantity">
+                        <span class="minus"><</span>
+                        <span class="calculate">1</span>
+                        <span class="plus">></span>
+                    </div>
+                </div>
+                <div class="item1">
+                    <div class="image">
+                        <img class="image" src="./Chocolate Cake 11.png" alt="">
+                    </div>
+                    <div class="Nname">
+                        Chocolate Cake
+                    </div>
+                    <div class="totalPrice">
+                        $4.75
+                    </div>
+                    <div class="quantity">
+                        <span class="minus"><</span>
+                        <span class="calculate">1</span>
+                        <span class="plus">></span>
+                    </div>
+                    <div class="price-computed">
+                        <p class="totalPrice">Total: $8.75</p>
+                    </div> 
+                </div>
+
+
+
+            </div>
+            <div class="btn">
+                <button class="close">Close</button>
+                <a href="./Profile.html"><button class="checkout">Check Out</button></a>
+            </div>
+        </div>
+
+
+        <div class="home">
+            <div class="left">
+                <div class="heading">
+                    <p class="head">Where Every Sip is Enchantment.</p>
+                </div>
+                <div class="head-description">
+                    Welcome to Charmé Café, where every cup tells a story and every bite brings comfort. 
+                    Nestled in the heart of the city, Charmé Café exudes a cozy ambiance with its warm lighting, 
+                    rustic decor, and inviting aroma of freshly brewed coffee.
+                </div>
+                <div class="order-button">
+                    <a href="./browsing copy.html">
+                        <button class="button-order">
+                            Order Now
+                        </button>
+                    </a>
+                </div>
+                <div class="stats">
+                    <div class="numbers">
+                        <div>
+                            <p class="num">100K<span class="plus">+</span></p>
+                        </div>
+                        <div>
+                            <p class="num">200K<span class="plus">+</span></p>
+                        </div>
+                        <div>
+                            <p class="num">300K<span class="plus">+</span></p>
+                        </div>
+                    </div>
+
+                    <div class="text1">
+                        <div>
+                            <p class="des">Reviews</p>
+                        </div>
+                        <div>
+                            <p class="des">Best Sell</p>
+                        </div>
+                        <div>
+                            <p class="des">Menu</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <img class="coffee" src="./OfficialCoffee.png" alt="">
+            </div>
+        </div>
+
+        <div class="services">
+            <div class="serve-title">
+                <div>
+                    <p class="our-services">OUR SERVICES</p>
+                </div>
+                <div class="serve-description">
+                    With humble beginnings rooted in family tradition, Café Charme was founded by a group of passionate coffee enthusiasts whose personal stories are woven into every aspect of our business.                
+                </div>
+                <div class="order-button1">
+                    <a href="./aboutUs copy.html">
+                        <button class="button-order1">
+                            About Us
+                        </button>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="offer">
+                <div class="box">
+                    <div class="serve-circle"></div>
+                    <div>
+                        <img class="pic-1" src="./image 4.png" alt="">
+                    </div>
+                        <p class="head-text">DELIVERY</p>
+                        <p class="pic-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. quisquam suscipit incidunt? quibusdam eius id.
+                        </p>
+                </div>
+                <div class="box">
+                    <div class="serve-circle"></div>
+                    <div>
+                        <img class="pic-1" src="./image 5.png" alt="">
+                    </div>
+                        <p class="head-text">DINE IN</p>
+                </div>
+                <div class="box">
+                    <div class="serve-circle"></div>
+                    <div>
+                        <img class="pic-1" src="./image 6.png" alt="">
+                    </div>
+                        <p class="head-text">CUSTOM ORDER</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        <img class="separator" src="./image 34.png" alt="">
+
+        <div class="menu">
+            <div class="serve-title">
+                <div class="title">
+                    <p class="our-services">OUR MENU</p>
+                </div>
+            </div>
+
+            <div class="menus">
+                <div class="top">
+                    <div class="card-body">
+                        <div class="card-pic">
+                            <img class="Mocha" src="./mochamocha.jpg" alt="">
+                        </div>
+                        <div class="card-content">
+                            <div class="card-cont">
+                                <div class="menu-name">
+                                    Mocha
+                                </div>
+                                <div class="price">
+                                    $4.00
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-pic">
+                            <img class="Mocha" src="./lattetete.jpg" alt="">
+                        </div>
+                        <div class="card-content">
+                            <div class="card-cont">
+                                <div class="menu-name">
+                                    Café Latte
+                                </div>
+                                <div class="price">
+                                    $3.50
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-pic">
+                            <img class="Mocha" src="./Espresso 1.png" alt="">
+                        </div>
+                        <div class="card-content">
+                            <div class="card-cont">
+                                <div class="menu-name">
+                                    Espresso
+                                </div>
+                                <div class="price">
+                                    $2.50
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bottom">
+                    <div class="card-body">
+                        <div class="card-pic">
+                            <img class="Mocha" src="./cookies1.jpg" alt="asd">
+                        </div>
+                        <div class="card-content">
+                            <div class="card-cont">
+                                <div class="menu-name">
+                                    Cookies
+                                </div>
+                                <div class="price">
+                                    $2.00
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-pic">
+                            <img class="Mocha" src="./Chocolate Cake 1.png" alt="">
+                        </div>
+                        <div class="card-content">
+                            <div class="card-cont">
+                                <div class="menu-name">
+                                    Chocolate Cake
+                                </div>
+                                <div class="price">
+                                    $4.75
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-pic">
+                            <img class="Mocha" src="./croissant1.jpg" alt="">
+                        </div>
+                        <div class="card-content">
+                            <div class="card-cont">
+                                <div class="menu-name">
+                                    Croissant
+                                </div>
+                                <div class="price">
+                                    $2.50
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="browsing-button">
+                    <a href="./browsing.html"><button  class="To-Browsing">Show All</button></a>
+                </div>
+
+            </div>
+        </div>
+
+<script type="text/javascript">
+    alert("Click the Brand Logo to access Admin side");
+</script>
+
+<script src="./app.js">
+</script>
+
+<script src="./browsing.js"></script>
+</body>
+
+<footer>
+    <div class="footer-top">
+        <div class="footer-logo">
+            <div>
+                <img class="footer-brand-logo" src="./Group 29.png" alt="">
+            </div>
+            <p class="footer-brand-name">Café Charme</p>
+        </div>
+        <div>
+            <p class="footer-text">Where every sip is an enchantment</p>
+        </div>
+        <div class="footer-platforms">
+            <img class="footer-frame" src="./Frame 36.png" alt="">
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <div class="footer-bottom-left">
+            <p class="footer-bottom-text">
+                About Company
+            </p>
+            <p class="about-company">
+                Cafe Charme offers a delightful blend of flavors and hospitality, creating memorable experiences with every visit
+            </p>
+            <div class="other-infos">
+                <img src="./mdi_location.png" alt="">
+                <p>Zamboanga City</p>
+            </div>
+            <div class="other-infos">
+                <img src="mdi_call.png" alt="">
+                <p>123-4567-098</p>
+            </div>
+            <div class="other-infos">
+                <img src="./ic_round-email.png" alt="">
+                <p>CafeCharmeDelights@email.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom-right">
+            <p class="footer-bottom-text">
+                Opening Hours
+            </p>
+            <p class="about-company">
+                Unwind at Cafe Charme during our opening hours, ensuring you can enjoy our cozy ambiance and delightful treats.
+            </p>
+            <p>
+                <p><span class="bolded">Monday - Friday: </span> 09:00 AM - 08:00 PM</p>
+            </p>
+            <p>
+                <p><span class="bolded">Saturday - Sunday: </span> 09:00 AM - 08:00 PM</p>
+            </p>
+        </div>
+    </div>
+
+    <div class="foot-footer">
+        <div>
+            © Copyright Coffee Cup. All right reserved.
+        </div>
+
+        <div class="foot-footer-trio">
+            <div>Privacy Policy</div>
+            <div>Support</div>
+            <div>Terms & Condition</div>
+        </div>
+    </div>
+</footer>
+
+</html>
