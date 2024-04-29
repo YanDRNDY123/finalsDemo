@@ -1,0 +1,274 @@
+button:hover
+{
+    cursor: pointer;
+}
+
+*
+{
+    font-size: 16px;
+    font-family: Roboto;
+    margin: 0;
+}
+
+a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.backgroundSolid1
+{
+    width: 100%;
+    height: 216px;
+    position: absolute;
+    z-index: -1;
+    background-color: #fff;
+    padding-bottom: 30px;
+}
+
+.backgroundSolid2
+{
+    width: 100%;
+    height: 216px;
+    position: absolute;
+    z-index: -1;
+    background-color: #FFE3CB;
+    margin-top: 63px;
+    padding-bottom: 30px;
+}
+
+.backgroundSolid3
+{
+    width: 100%;
+    height: 216px;
+    position: absolute;
+    z-index: -1;
+    background-color: #f0eeee;
+    margin-top: 309px;
+    padding-bottom: 300px;
+}
+
+.body
+{
+    position: relative;
+    margin: 0;
+}
+
+.admin-side
+{
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+}
+
+.admin-nav
+{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 700px;
+    background-color: #591F0B;
+    color: #FFF;
+    position: fixed;
+}
+
+.name-nav
+{
+    font-size: 30px;
+    font-family: Playfair;
+    padding: 16px 24px 24px;
+}
+
+.dashboard-nav-home
+{
+    background-color: #3F0F06;
+    display: flex;
+    flex-direction: row;
+    padding: 24px 24px;
+    column-gap: 8px;
+}   
+
+.dashboard-nav-orders
+{
+    display: flex;
+    flex-direction: row;
+    padding: 24px 24px;
+    column-gap: 8px;
+    transition: background-color 0.5s;
+}
+
+.dashboard-nav-orders:hover
+{
+    background-color: #3F0F06;
+}
+
+.dashboard-nav-products
+{
+    display: flex;
+    flex-direction: row;
+    padding: 24px 24px;
+    column-gap: 8px;
+    transition: background-color 0.5s;
+}
+
+.dashboard-nav-products:hover
+{
+    background-color: #3F0F06;
+}
+
+
+.admin-dashboard
+{
+    margin-left: 250px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 24px;
+}
+
+.bar
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 700px;
+}
+
+.ham-search
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.line 
+{
+    width: 16px;
+    height: 2px;
+    background-color: black;
+    margin: 3px 0;
+}
+
+.admin-search
+{
+    padding: 8px 16px;
+    border-radius: 8px;
+    background-clip: padding-box;
+    background-color: transparent;
+}
+
+.notif-profile
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 8px;
+}
+
+
+.notif-icon
+{
+    width: 35px;
+}
+
+.project-create
+{
+    display: flex;
+    flex-direction: row;
+    padding: 80px 14px 40px 14px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project-text
+{
+    font-size: 24px;
+}
+
+.project-box
+{
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 10px 20px;
+    background-color: white;
+    transition: background-color 0.5s;
+}
+
+.project-box:hover
+{
+    background-color: #FFE3CB;
+}
+
+.stats-cards
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+.statCard-body
+{
+    
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 140x;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.cardTitle
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    height: 44px;
+}
+
+.cardTitle div p
+{
+    font-size: 18px;
+}
+
+.card-icon
+{
+    width: 30px;
+}
+
+h1
+{
+    font-size: 50px;
+    margin-bottom: 8px;
+    color: #3F0F06;
+}
+
+.completed
+{
+    font-size: 20;
+}
+
+.graphs
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.revenSatis
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.Revenue
+{
+    width: 630px;
+}
+
+.graphs
+{
+    width: 436px;
+}
+
