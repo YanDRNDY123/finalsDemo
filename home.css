@@ -1,0 +1,132 @@
+.home {
+    display: flex;
+    flex-direction: row;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 60px;
+    column-gap: 30px;
+    margin-bottom: 95px;
+    justify-content: center;
+}
+
+.home-nav:hover {
+    border-bottom: 2px solid rgb(89, 31, 11);
+}
+
+.service-nav:hover {
+    border-bottom: 2px solid rgb(89, 31, 11);
+}
+
+.menu-nav:hover {
+    border-bottom: 2px solid rgb(89, 31, 11);
+}
+
+.head {
+    font-size: 75px;
+    font-weight: 700;
+    color: rgb(63, 15, 6);
+    width: 600.49px;
+    margin-bottom: 25px;
+    margin-top: 0;
+}
+
+.head-description {
+    font-family: Roboto;
+    font-size: 20px;
+    color: rgb(63, 15, 6);
+    width: 600.49px;
+    margin-bottom: 25px;
+    line-height: 35px;
+}
+
+.button-order1 {
+    border-style: none;
+    border: 1px solid rgb(89, 31, 11);
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: rgb(89, 31, 11);
+    color: rgb(255, 227, 203);
+    font-family: Roboto;
+    font-size: 16px;
+    margin-bottom: 25px;
+    transition: backgroud-color 0.5s, color 0.5s;
+}
+
+.button-order1:hover
+{
+    background-color: rgb(255, 227, 203);
+    color: rgb(89, 31, 11);
+    cursor: pointer;
+}
+
+.item1
+{
+    display: none;
+}
+
+.button-order {
+    border-style: none;
+    border: 1px solid rgb(89, 31, 11);
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: rgb(89, 31, 11);
+    color: rgb(255, 227, 203);
+    font-family: Roboto;
+    font-size: 16px;
+    margin-bottom: 25px;
+    transition: backgroud-color 0.5s, color 0.5s;
+}
+
+.button-order:hover {
+    background-color: rgb(255, 227, 203);
+    color: rgb(89, 31, 11);
+    border: 1px solid rgb(89, 31, 11);
+    cursor: pointer;
+}
+
+.stats {
+    display: flex;
+    flex-direction: column;
+}
+
+.numbers {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    font-family: Lora;
+    font-size: 45px;
+    color: rgb(89, 31, 11);
+    font-weight: 700;
+}
+
+.num {
+    margin: 0px;
+}
+
+.plus {
+    color: rgb(179, 108, 54);
+}
+
+.text1 {
+    display: flex;
+    flex-direction: row;
+    column-gap: 120px;
+    padding-left: 20px;
+    padding-right: 60px;
+    font-family: Lora;
+    font-size: 16px;
+    color: rgb(89, 31, 11);
+}
+
+.des
+{
+    margin: 0;
+}
+
+.coffee {
+    align-self: center;
+    width: 600px;
+    height: 500px;
+}
+
+
